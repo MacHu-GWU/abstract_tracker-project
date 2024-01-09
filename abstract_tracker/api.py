@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 
+"""
+Usage example::
+
+    import abstract_tracker.api as abstract_tracker
+"""
+
 from .logger import logger
 from .exc import TaskLockedError
 from .exc import NoMoreRetryError
