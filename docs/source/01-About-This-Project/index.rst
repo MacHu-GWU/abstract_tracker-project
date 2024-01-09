@@ -29,5 +29,3 @@ This library provides some concrete implementations of the tracker.
 
 - :class:`~abstract_tracker.trackers.file_tracker.FileTracker` use a local file as the backend.
 - :class:`~abstract_tracker.trackers.s3_tracker.S3Tracker` use AWS S3 as the backend
-
-
