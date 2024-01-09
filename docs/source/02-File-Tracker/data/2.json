@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "status": 30,
+    "attempts": 3,
+    "create_time": "2024-01-09T04:51:07.172294+00:00",
+    "update_time": "2024-01-09T04:51:08.058582+00:00",
+    "lock": null,
+    "lock_time": "2024-01-09T04:51:08.049269+00:00",
+    "lock_expire_time": "2024-01-09T04:51:18.049269+00:00",
+    "data": {},
+    "errors": {
+        "error": "TaskError('task failed')",
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/sanhehu/Documents/GitHub/abstract_tracker-project/abstract_tracker/base.py\", line 370, in start\n    yield self\n  File \"/var/folders/3y/7t5ll4sn6x76g8rhfqlc36dw0000gn/T/ipykernel_7135/1894269443.py\", line 2, in <module>\n    run_bad_task()\n  File \"/var/folders/3y/7t5ll4sn6x76g8rhfqlc36dw0000gn/T/ipykernel_7135/2741605091.py\", line 51, in run_bad_task\n    raise TaskError(\"task failed\")\nTaskError: task failed\n"
+    }
+}

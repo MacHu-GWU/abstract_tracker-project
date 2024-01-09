@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "status": 40,
+    "attempts": 5,
+    "create_time": "2024-01-09T03:49:29.580803+00:00",
+    "update_time": "2024-01-09T03:55:29.395104+00:00",
+    "lock": null,
+    "lock_time": "2024-01-09T03:55:29.390636+00:00",
+    "lock_expire_time": "2024-01-09T03:55:39.390636+00:00",
+    "data": {},
+    "errors": {
+        "error": "NameError(\"name 'run_good_task' is not defined\")",
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/sanhehu/Documents/GitHub/abstract_tracker-project/abstract_tracker/base.py\", line 363, in start\n    yield self\n  File \"/var/folders/3y/7t5ll4sn6x76g8rhfqlc36dw0000gn/T/ipykernel_3549/556036057.py\", line 2, in <module>\n    run_good_task()\nNameError: name 'run_good_task' is not defined\n"
+    }
+}

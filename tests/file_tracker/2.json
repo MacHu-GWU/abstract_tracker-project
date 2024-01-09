@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "status": 40,
+    "attempts": 3,
+    "create_time": "2024-01-09T04:38:53.025470+00:00",
+    "update_time": "2024-01-09T04:38:53.028411+00:00",
+    "lock": null,
+    "lock_time": "2024-01-09T04:38:53.028217+00:00",
+    "lock_expire_time": "2024-01-09T04:38:58.028217+00:00",
+    "data": {},
+    "errors": {
+        "error": "TaskError('task error')",
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/sanhehu/Documents/GitHub/abstract_tracker-project/abstract_tracker/base.py\", line 370, in start\n    yield self\n  File \"/Users/sanhehu/Documents/GitHub/abstract_tracker-project/tests/test_file_tracker.py\", line 74, in _test_run_bad_task\n    run_bad_task()\n  File \"/Users/sanhehu/Documents/GitHub/abstract_tracker-project/abstract_tracker/tests/task.py\", line 17, in run_bad_task\n    raise TaskError(\"task error\")\nabstract_tracker.tests.task.TaskError: task error\n"
+    }
+}
