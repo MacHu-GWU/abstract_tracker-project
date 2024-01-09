@@ -57,7 +57,7 @@ Welcome to ``abstract_tracker`` Documentation
 
 This library help you track the business critical task status moving from ``pending`` (todo), to ``in_progress``, then possibly to ``failed`` (also with error traceback information) or ``succeeded``. If it failed too many times, it will be marked as ``exhausted``. If you never want to see it anymore, it will be marked as ``ignored``.
 
-This library provides the abstraction layer that can work with arbitrary backend. For instance, local file, AWS S3, RDBMS, DynamoDB, Redis, MongoDB, ..., as you wish.
+This library provides the abstraction layer that can work with arbitrary backend. For instance, local file, AWS S3, SQL Database, AWS DynamoDB, Redis, MongoDB, ..., as you wish.
 
 
 .. _install:
